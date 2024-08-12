@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class Transformator {
 
-    public <I, O> O transformarModelEmRecord(I input, String className) {
+    public <I, O> O transformarModelEmRecordDto(I input, String className) {
         try {
             var sourceClass = input.getClass();
 

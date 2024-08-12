@@ -9,12 +9,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class TransformatorTest {
 
     @Test
-    void deveTransformarClasseModelParaDto() {
+    void deveriaTransformarClasseModelParaRecordDto() {
         var usuario = new Usuario(1L, "Teste", 12345678912L);
 
         var transformator = new Transformator();
 
-        DadosDetalhadosUsuarioDto dadosDetalhados = transformator.transformarModelEmRecord(usuario,
+        DadosDetalhadosUsuarioDto dadosDetalhados = transformator.transformarModelEmRecordDto(usuario,
                 "DadosDetalhadosUsuario");
 
         assertNotNull(dadosDetalhados);
