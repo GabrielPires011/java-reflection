@@ -1,7 +1,7 @@
-package br.com.reflection.controller;
+package br.com.controller;
 
-import br.com.reflection.dto.DadosDetalhadosUsuarioDto;
-import br.com.reflection.service.UsuarioService;
+import br.com.dto.DadosDetalhadosUsuarioDto;
+import br.com.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
